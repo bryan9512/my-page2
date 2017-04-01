@@ -454,7 +454,7 @@
 		margin-right: -2rem;
 		opacity: 0;
 		width: 1rem;
-		z-index: -1;
+		z-index: -2;
 	}
 
 		input[type="checkbox"] + label,
@@ -1053,7 +1053,7 @@
 		left: 0;
 		width: 100%;
 		height: 100vh;
-		z-index: 1;
+		z-index: -1;
 	}
 
 		#bg:before, #bg:after {
@@ -1079,7 +1079,7 @@
 			background-size: auto, 256px 256px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
-			z-index: 2;
+			z-index: 1;
 		}
 
 		#bg:after {
@@ -1095,7 +1095,7 @@
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
-			z-index: 1;
+			z-index: 0;
 		}
 
 		body.is-article-visible #bg:after {
@@ -1136,7 +1136,7 @@
 		min-height: 100vh;
 		width: 100%;
 		padding: 4rem 2rem;
-		z-index: 3;
+		z-index: 2;
 	}
 
 		#wrapper:before {
@@ -1463,7 +1463,7 @@
 		flex-direction: column;
 		position: relative;
 		max-width: 100%;
-		z-index: 3;
+		z-index: 2;
 	}
 
 		#main article {
